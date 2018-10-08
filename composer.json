@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/orm",
+    "name": "shopsys/doctrine-orm",
     "type": "library",
     "description": "Object-Relational-Mapper for PHP",
     "keywords": ["orm", "database"],
@@ -51,5 +51,8 @@
     },
     "archive": {
         "exclude": ["!vendor", "tests", "*phpunit.xml", ".travis.yml", "build.xml", "build.properties", "composer.phar", "vendor/satooshi", "lib/vendor", "*.swp"]
+    },
+    "replace": {
+        "doctrine/orm": "2.6.3"
     }
 }
